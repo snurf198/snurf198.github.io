@@ -37,10 +37,9 @@ Bias가 크다는 것은 평균적으로 모델이 얼마나 값을 잘 예측�
 
 지금부터는 위의 설명으로는 내용이 부족하다! 나는 좀 더 엄밀하고 수학적인 정의와 설명이 필요하다! 하시는 분들을 위해 아래의 링크의 내용을 제가 공부하고 이해하여 재구성한 글입니다. 위의 설명으로도 충분하신 분들은 굳이 이 부분은 읽지 않으셔도 됩니다.
 
-<https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote12.html>
+[![Lecture 12](https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote12.html)]
 그럼 시작하겠습니다.
 
 머신모델을 학습하기 이전에 dataset이 필요합니다. 이 때 dataset을 $D$라고 하겠습니다. 이 dataset은 분포 $P(X,Y)$로 부터 추출되었다고 합시다. 우리는 일반적인 regression 모델에 대해서 살펴볼 것이기 때문에 $y\in \mathbb{R}$입니다.
-$$D  = \{(\bold x_1, y_1),\space...\space,(\bold x_n, y_n)\}\space from\space distribution\space P(X, Y)\\D: dataset\\\bold x_n: feature\\y_n: target\space y_n\in\mathbb{R}$$
-
-$$E_{x, y, D}[(h_D(x)-y)^2]\\$$
+$D  = \{(\bold x_1, y_1),\space...\space,(\bold x_n, y_n)\}\space from\space distribution\space P(X, Y)\\D: dataset\\\bold x_n: feature\\y_n: target\space y_n\in\mathbb{R}$
+$E_{x, y, D}[(h_D(x)-y)^2]\\$
