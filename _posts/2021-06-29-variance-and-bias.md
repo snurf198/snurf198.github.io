@@ -41,14 +41,10 @@ https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote12.html
 
 그럼 시작하겠습니다.
 
-머신모델을 학습하기 이전에 dataset이 필요합니다. 이 때 dataset을 $D$라고 하겠습니다. 이 dataset은 분포 $P(X,Y)$로 부터 추출되었다고 합시다. 우리는 일반적인 regression 모델에 대해서 살펴볼 것이기 때문에 $y\in \R$입니다.
-$$
-D  = \{(\bold x_1, y_1),\space...\space,(\bold x_n, y_n)\}\space from\space distribution\space P(X, Y)\\
+머신모델을 학습하기 이전에 dataset이 필요합니다. 이 때 dataset을 $D$라고 하겠습니다. 이 dataset은 분포 $P(X,Y)$로 부터 추출되었다고 합시다. 우리는 일반적인 regression 모델에 대해서 살펴볼 것이기 때문에 $y\in \mathbb{R}$입니다.
+$$D  = \{(\bold x_1, y_1),\space...\space,(\bold x_n, y_n)\}\space from\space distribution\space P(X, Y)\\
 D: dataset\\
 \bold x_n: feature\\
-y_n: target\space y_n\in\R
-$$
+y_n: target\space y_n\in\R$$
 
-$$
-E_{x, y, D}[(h_D(x)-y)^2]\\
-$$
+$$E_{x, y, D}[(h_D(x)-y)^2]\\$$
