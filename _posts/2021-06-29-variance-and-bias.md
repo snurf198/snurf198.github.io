@@ -1,11 +1,13 @@
-\---
-
+---
 layout: single
-
 title: "Bias와 Variance"
-
-\---
-
+categories:
+  - machine learning
+tags:
+  - 
+use_math: true
+comments: true
+---
 ## Bias와 Variance란?
 
 머신러닝 모델을 학습할 때 모델이 train data에 대해서는 괜찮은 accuracy가 나오는 한편 test data에 대해서는 accuracy가 형편없는 경우가 있습니다. 이것은 모델이 train data에 overfitting 되었기 때문입니다. 다른말로 하면 variance가 높기 때문입니다. 반면 모델의 학습에 어떤 알고리즘을 사용할 때 train data와 test data에 대해서 둘 다 나쁜 accuracy가 나오는 경우가 있습니다. 가령 linear regression에서 예측값과 데이터의 feature가 선형적인 추세를 보이지 않는다면 accuracy가 낮게 나올 것입니다. 이 경우 모델은 train data에 대해 underfitting 되어있습니다. 다른말로 하면 bias가 높습니다.
