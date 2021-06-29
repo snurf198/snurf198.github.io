@@ -45,6 +45,6 @@ https://www.cs.cornell.edu/courses/cs4780/2018fa/lectures/lecturenote12.html
 $$D  = \{(\bold x_1, y_1),\space...\space,(\bold x_n, y_n)\}\space from\space distribution\space P(X, Y)\\
 D: dataset\\
 \bold x_n: feature\\
-y_n: target\space y_n\in\R$$
+y_n: target\space y_n\in\mathbb{R}$$
 
 $$E_{x, y, D}[(h_D(x)-y)^2]\\$$
